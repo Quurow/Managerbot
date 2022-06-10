@@ -104,7 +104,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
@@ -377,7 +377,7 @@ def help_button(update, context):
 
 def yurikorobot_about_callback(update, context):
     query = update.callback_query
-    if query.data == "shadiyobot_":
+    if query.data == "yurikorobot_":
         query.message.edit_text(
             text=""" *Shadiyo* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of Shadiyobot.`
@@ -479,10 +479,10 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YumiXPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @Shadiyo_Helper`to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yumi Music And Join Support Group @godzilla_chatting*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
+            f"\n\n✗ *Lets Enjoy The Shadiyo Bot And Join Support Group @Somalibots_help*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: @Smarter_than_anyone!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
