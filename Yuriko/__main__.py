@@ -84,13 +84,13 @@ yumi_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 PM_START_TEXT = """
 *👋 Hello {}*
 
-Hey There My Name Is *YumiXBot* [I](https://telegra.ph/file/fdfea288dccdeba59c9a4.jpg) Am Here To Help You Manage Your Groups!
+Hey There My Name Is *ShadiyoBot* [I](https://te.legra.ph/file/f8543723607fc5b4de8ca.jpg) Am Here To Help You Manage Your Groups!
 Hit /Help To Find Out More About How To Use Me To My Full Potential!
 ────────────────────────
 乂 Ping Time: {}
 乂 {} User, Database {} Chats.
 ────────────────────────
-*Powered By: @BotDuniyaXd*
+*Powered By: @Smarter_than_anyone*
 """
 
 buttons = [
@@ -100,17 +100,17 @@ buttons = [
     [
         InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
         InlineKeyboardButton(
-            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/AMANTYA1/Yuriko"
+            text="Oᴡɴᴇʀ", url="https://t.me/Somalibots"
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="shadiyobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/Shadiyobot?startgroup=true"),
     ],
 ]
 
@@ -126,7 +126,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @Shubhanshutya's 💕"""
+ @Smarter_than_anyone's 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/somalibots_help")]]
             ),
         )
         
@@ -377,10 +377,10 @@ def help_button(update, context):
 
 def yurikorobot_about_callback(update, context):
     query = update.callback_query
-    if query.data == "yurikorobot_":
+    if query.data == "shadiyobot_":
         query.message.edit_text(
-            text=""" *YUMI* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            text=""" *Shadiyo* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of Shadiyobot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -390,10 +390,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="https://t.me/godzilla_chatting"
+                            text="Bᴜɢ'ꜱ", url="https://t.me/Somalibots_help"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/BotDuniyaXD/23"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/Somalibots"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -420,7 +420,7 @@ def yurikorobot_about_callback(update, context):
             
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@YurikoRobot` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@shadiyobot` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -446,7 +446,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, @YumiXBot now ready to manage your group.`"
+            f"\n✗ `Congragulations, @ShadiyoBot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -479,10 +479,10 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YumiXPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @Shadiyo_Helper `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yumi Music And Join Support Group @godzilla_chatting*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
+            f"\n\n✗ *Lets Enjoy The Shadiyo Music And Join Support Group @Somalibots_help*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: ⏤͟͞ ＥＫＳＯ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -493,7 +493,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YumiXBot now ready to manage your group.`"
+            f"\n✗ `Congragulations, ShadiyoBot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -508,19 +508,19 @@ def yurikorobot_about_callback(update, context):
         )    
     elif query.data == "yurikorobot_support":
         query.message.edit_text(
-            text="* Yumi Support Chats*"
+            text="* Shadiyo Support Chats*"
             
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/BotDuniyaXd"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/Shadiyonews"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Somalibots"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/BotDuniyaXD"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Somaibots_help"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Somalibots"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -531,15 +531,15 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR Yumi DEV'S</b>\n"
+            text=f"<b> CREDIT FOR Shadiyo DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The Shadiyo Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Sᴜᴘᴜɴ", url="t.me/supunma"),
+                    InlineKeyboardButton(text="Eᴋsᴏ", url="t.me/Smarter_than_anyone"),
+                    InlineKeyboardButton(text="Aᴛᴛᴀᴄᴋ", url="t.me/AttackTor"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -555,8 +555,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *YumiXBot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/AMANTYA1/Yuriko) .""",
+            text=""" Hi..😻 I'm *ShadiyoBot*
+                 \nHere is the [🔥⏤͟͞ ＥＫＳＯ🔥](https://t.me/Smarter_than_anyone) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
