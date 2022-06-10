@@ -98,13 +98,13 @@ buttons = [
         InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", url="https://t.me/Shadiyohelp"),
+        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
         InlineKeyboardButton(
             text="Oᴡɴᴇʀ", url="https://t.me/Somalibots"
         ),
     ],
     [
-        InlineKeyboardButton(text="Wᴇʙsɪᴛᴇ", url="https://quurow.com/),
+        InlineKeyboardButton(text="Wᴇʙsɪᴛᴇ", callback_data="yurikorobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
