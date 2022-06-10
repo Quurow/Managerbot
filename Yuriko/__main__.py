@@ -104,7 +104,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="shadiyobot_"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
