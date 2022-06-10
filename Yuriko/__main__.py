@@ -104,7 +104,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Wᴇʙsɪᴛᴇ", callback_data="yurikorobot_"),
+        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
@@ -479,10 +479,10 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @Shadiyo_Helper `to your group:`"
+            f"\n\n✗ `3.) add` @YumiXPlugin `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Shadiyo Music And Join Support Group @Somalibots_help*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: ⏤͟͞ ＥＫＳＯ!*",
+            f"\n\n✗ *Lets Enjoy The Yumi Music And Join Support Group @godzilla_chatting*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
